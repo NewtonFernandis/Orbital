@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 
 export const navigateToPlot = async (formData: FormData) => {
   const tleData = formData.get("tleData");
-  const encodedTleData = encodeURIComponent(tleData); // Encode the TLE data
+  const encodedTleData = encodeURIComponent(tleData as string);
   redirect(`/plot/${encodedTleData}`);
 };
 

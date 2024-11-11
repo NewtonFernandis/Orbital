@@ -64,7 +64,7 @@ const Tracker = ({ setSatInfo }: Props) => {
     tleLine1: string | undefined,
     tleLine2: string | undefined,
   ) {
-    const satelliteService = new SatelliteService(tleLine1, tleLine2);
+    const satelliteService = new SatelliteService(tleLine1!, tleLine2!);
     stopTracking(); // Stop any existing interval
     const position = satelliteService.getSatellitePosition() ?? {
       latitude: 20.593,

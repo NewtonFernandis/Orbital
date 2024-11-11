@@ -45,7 +45,7 @@ const HomePage = () => {
                 <DialogTitle>Add Two-line element (TLE) Data</DialogTitle>
                 <DialogDescription>
                   Two-Line Element (TLE) data is a compact format that describes
-                  a satellite's orbital elements. Each TLE has two lines of
+                  a satellite&apos;s orbital elements. Each TLE has two lines of
                   numbers that represent a satellite’s orbital path parameters.
                   &nbsp;
                   <a
