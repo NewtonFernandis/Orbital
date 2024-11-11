@@ -1,29 +1,58 @@
-# Create T3 App
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+# 🚀 Orbital: Real-Time Satellite Tracker
 
-## What's next? How do I make an app with this?
+Welcome to **Orbital** – a satellite tracking app powered by TLE (Two-Line Element) data. With Orbital, you can visualize satellites in real-time, check out their trajectories, and add your own TLE data to track custom objects in orbit.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Project Overview
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+This app is a full-stack project built with **Next.js** and TypeScript. Orbital uses satellite TLE data to calculate position, velocity, and altitude for satellites in real-time, displaying them on an interactive map.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Getting Started 🛠️
 
-## Learn More
+### Prerequisites
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Ensure you have Node.js and npm (or yarn) installed on your machine.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### Installation
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Clone this repo and install the dependencies:
 
-## How do I deploy this?
+```bash
+git clone https://github.com/yourusername/orbital.git
+cd orbital
+npm install
+```
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+### Running the App
+
+- **Development**: 
+  ```bash
+  npm run dev
+  ```
+  Runs the app in development mode.
+
+- **Linting and Type Checking**: 
+  ```bash
+  npm run check
+  ```
+  Ensures the codebase meets all TypeScript and linting standards.
+
+- **Build**:
+  ```bash
+  npm run build
+  ```
+  Compiles the app for production.
+
+- **Preview**:
+  ```bash
+  npm run preview
+  ```
+  Builds and serves a production preview of the app.
+
+- **Formatting**:
+  ```bash
+  npm run format:write
+  ```
+  Formats the code using Prettier.
+
